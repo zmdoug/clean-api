@@ -6,14 +6,6 @@
 [ x ] LintStaged - Test only staged files  
 [ x ] Husky - Run test before commit  
 [ x ] Commit linter - Force conventional commit format
-```
-{
-  "*.ts": [
-    "eslint 'src/**' --fix",
-    "npm run test:staged"
-  ]
-}
-```
 
 #### This project is pre-configured to use:
 
